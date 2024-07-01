@@ -29,10 +29,17 @@ To run these scripts, you will need:
 
 ## Scripts
 
-### 1. `hello_world.py`
+### 1. `blink.py`
 
-This script prints "Hello, World!" to the console.
+This script blinks the onboard LED for a Raspberry Pi Pico.
 
-### 2. `blink.py`
+### 2. `socket_webserver.py`
 
-This script blinks an LED connected to a GPIO pin.
+This script sets up a simple web server on a MicroPython-compatible board (such as the Raspberry Pi Pico) that turns on an LED and notifies the user via text on a web page.
+
+### 3. `onbrd_led_w_web_server.py`
+
+This script sets up a simple web server on a MicroPython-compatible board (such as the Raspberry Pi Pico) that allows you to control an LED through a web interface.
+
+
+
