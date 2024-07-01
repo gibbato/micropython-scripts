@@ -41,5 +41,20 @@ This script sets up a simple web server on a MicroPython-compatible board (such 
 
 This script sets up a simple web server on a MicroPython-compatible board (such as the Raspberry Pi Pico) that allows you to control an LED through a web interface.
 
+### 4. `external_led.py`
+
+This script blinks an external led using pin 15
+
+### 5. `external_led_webserver.py`
+
+This script to control an external LED via a web server using pin 15.
+
+### `secrets.py` File
+
+Before running the script, ensure you have a `secrets.py` file with your Wi-Fi credentials. It should look like this:
+
+```python
+SSID = 'your-ssid'
+PASSWORD = 'your-password'
 
 
